@@ -6,7 +6,7 @@ int main()
     int lower, upper, step;
 
     lower = -50; /* lower temperature limit in table */
-    upper = 110; /* upper limit
+    upper = 110; /* upper limit */
     step = 5; /* step size */
 
     printf("Celsius\tFahrenheit\n");
