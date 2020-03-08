@@ -4,12 +4,11 @@ int main()
 {
     float fahr, celsius;
     int lower, upper, step;
-    
-    lower = -50; /* нижняя граница 
-               температур в таблице */
-    upper = 110; /* верхняя граница */
-    step = 5; /* величина шага */
-    
+
+    lower = -50; /* lower temperature limit in table */
+    upper = 110; /* upper limit
+    step = 5; /* step size */
+
     printf("Celsius\tFahrenheit\n");
     celsius = lower;
     while(celsius <= upper) {
